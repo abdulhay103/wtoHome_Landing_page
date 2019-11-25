@@ -1,0 +1,310 @@
+/* (1366x768) WXGA Display */
+
+@media screen and (max-width: 1600px) {}
+
+/*		Medium Device	*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    h2 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    ul#navigation li a {
+        font-size: 18px;
+
+    }
+
+
+.banner-content h1 {
+  color: #000;
+  font-size: 80px;
+  line-height: 80px;
+}
+    .banner-content > img {
+  max-width: 680px;
+}
+    .banner-content h2 {
+        font-size: 40px;
+
+    }
+
+    .banner-box h2 {
+        font-size: 26px;
+        line-height: 36px;
+
+    }
+
+    .banner-box p {
+        font-size: 15px;
+    }
+
+    .result-content h4 {
+        font-size: 18px;
+    }
+
+    .result-content p {
+        font-size: 16px;
+
+    }
+
+    .number-speak-item > h3 {
+        font-size: 25px;
+    }
+
+    .praise-box > h3 {
+        font-size: 18px;
+    }
+
+    .praise-box > p {
+        font-size: 14px;
+
+    }
+
+    .number-box h3 {
+        font-size: 22px;
+    }
+
+    .number-box p {
+        font-size: 16px;
+    }
+
+    .footer-link ul li {
+        padding: 0 15px;
+    }
+}
+
+
+
+/*		Tablet Layout: 768px.	*/
+@media only screen and (max-width: 991px) {
+
+    .main-menu .logo {
+        width: 200px;
+    }
+
+.openBtn {
+  border-left: 0 none;
+}
+
+    .src {
+        position: absolute;
+        right: 80px;
+    }
+
+    .banner-content h1 {
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 60px;
+    }
+
+ .banner-content img {
+  width: 440px;
+}
+    .banner-content h2 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        line-height: 35px;
+
+    }
+
+    .banner-box h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 8px;
+
+    }
+
+    .banner-box p {
+        font-size: 15px;
+    }
+
+    .result-heading {
+        margin-bottom: 10px;
+    }
+
+    .praise-box {
+        padding: 50px 10px;
+
+    }
+
+    .praise-box > p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 14px;
+    }
+
+    .number-box {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .praise-box > h3 {
+        font-size: 20px;
+    }
+
+    .result-map h2 {
+        font-size: 40px;
+    }
+.number-speak-item > h3 {
+    font-size: 24px;
+}
+    .number-box h3 {
+    font-size: 20px;
+    line-height: 26px;
+}
+    .number-box p {
+    font-size: 18px;
+}
+    .footer-flex {
+        display: inherit;
+        text-align: center;
+    }
+
+    .footer-link {
+        margin: 40px 0;
+    }
+
+    .footer-logo img {
+        width: 150px;
+    }
+
+    .footer-link ul li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+}
+
+
+
+
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+    .overlay input[type="text"] {
+        width: 80%;
+    }
+
+    .overlay button {
+        width: 20%;
+    }
+
+    h2,.search-heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .main-menu .logo {
+        width: 200px;
+    }
+
+    .banner-content h1 {
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .banner-content h2 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+.banner-content img {
+    width: 100%;
+}
+    .banner-box {
+        margin-top: 30px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .result-map h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .map-1 {
+        margin-top: 30px;
+    }
+
+    .number-speak-flex {
+        display: inherit;
+        margin-top: 50px;
+        padding: 40px 30px;
+        text-align: center
+    }
+
+    .number-speak-item h3 span {
+        display: block;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .number-box:nth-child(3) {
+        border-left: 0 none;
+        border-right: 0 none;
+        padding: inherit;
+    }
+
+    .number-box {
+        background: #fff none repeat scroll 0 0;
+        margin: 20px auto;
+        max-width: 300px;
+        padding: 38px;
+    }
+
+    .result-heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .search-list .theme-btn {
+        margin-left: 0;
+    }
+
+    .search-list ul li a {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .litigation-area .result-heading p {
+        color: #000;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .search-list {
+        display: inherit;
+
+    }
+
+    .search-list > ul {
+        margin-bottom: 20px;
+    }
+
+    .input {
+        display: inherit;
+
+    }
+
+    .input .theme-btn {
+        margin-top: 20px;
+    }
+
+    .praise-box {
+        margin: 20px auto;
+        max-width: 400px;
+    }
+
+    .theme-btn {
+        font-size: 20px;
+        margin-top: 30px
+    }
+
+    .footer-link ul li {
+        padding: 6px 10px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {}
